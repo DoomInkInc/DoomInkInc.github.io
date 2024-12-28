@@ -1,1 +1,150 @@
-<h1> Big WIP lmao </h1>
+<html><head><base href="." />
+<title>DoomInk Website</title>
+<style>
+body {
+  background: black url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"><rect width="100" height="100" fill="%23000"/><circle cx="50" cy="50" r="2" fill="%23fff"/></svg>') repeat;
+  color: #ff00ff;
+  font-family: "Comic Sans MS", cursive;
+  margin: 0;
+  cursor: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="%23ff00ff" d="M12 2L2 22h20L12 2z"/></svg>') 12 12, auto;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  background: rgba(0,0,0,0.8);
+  border: 5px ridge #00ff00;
+  padding: 20px;
+}
+
+.banner {
+  text-align: center;
+  animation: rainbow 3s linear infinite;
+  font-size: 48px;
+  text-shadow: 2px 2px #000000;
+}
+
+.minecraft-block {
+  animation: float 2s ease-in-out infinite;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+}
+
+.projects {
+  background: #003366;
+  border: 3px outset #c0c0c0;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.project-card {
+  background: #000080;
+  border: 2px solid #00ff00;
+  padding: 15px;
+  margin: 10px 0;
+  transition: transform 0.3s;
+}
+
+.project-card:hover {
+  transform: scale(1.02);
+}
+
+.marquee {
+  background: #000080;
+  padding: 10px;
+  color: yellow;
+}
+
+@keyframes rainbow {
+  0% { color: red; }
+  16.6% { color: orange; }
+  33.2% { color: yellow; }
+  49.8% { color: lime; }
+  66.4% { color: cyan; }
+  83% { color: magenta; }
+  100% { color: red; }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+
+@keyframes blink {
+  50% { opacity: 0; }
+}
+
+a {
+  color: #00ff00;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ff00ff;
+  text-decoration: underline wavy #00ff00;
+}
+
+
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="banner">
+    doomink coding hub
+  </div>
+
+  <div class="team-member">
+      <rect width="100" height="100" fill="#333"/>
+      <circle cx="50" cy="40" r="20" fill="#ff0000"/>
+      <rect x="30" y="70" width="40" height="20" fill="#ff0000"/>
+    </svg>
+    <div>
+      <h2>we are doomink</h2>
+      <p>dynamic duo of (x-2)² = 0 idiots in different continents</p>
+      <ul>
+        <li>minecraft mods</li>
+        <li>coding stuff</li>
+        <li>minecraft related stuff</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="projects">
+    <h2>our projects</h2>
+    
+    <div class="project-card">
+      <h3>minecraft related stuff</h3>
+      <ul>
+        <li>QoL++ and QoL++ Core (Fabric+Forge!)</li>
+        <li>Orenium 3, our latest version of our beloved mod.</li>
+        <li>DoomInk Extensions</li>
+      </ul>
+    </div>
+
+    <div class="project-card">
+      <h3>other projects that might be relevant</h3>
+      <ul>
+        <li>MxLRC Frontend</li>
+        <li>EnhancedCMD</li>
+        <li>RecoveryTool</li>
+        <li>Teocritical</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="links">
+    <h2>you can find us at</h2>
+    <ul>
+      <li><a href="https://github.com/DoomInkInc">Our GitHub</a></li>
+      <li><a href="https://modrinth.com/organization/DoomInkInc">Our Minecraft Projects</a></li>
+      <li><a href="https://doom-is-a.dev">dooms website</a></li>
+    </ul>
+  </div>
+
+  <center>
+    <a href="https://discord.gg/T7wa5mEJXY">Join our discord!</a>
+  </center>
+</div>
+</body></html>
